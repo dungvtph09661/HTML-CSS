@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.container{
+    max-width: 1410px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ------------------------------------------------ */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+ul{
+    display: inline-flex;
+}
+
+.menu ul li{
+    padding-top: 15px;
+    list-style: none;
+}
+
+ li a{
+    margin-left: 40px;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
+.exten{
+    align-items: center;
+}
+.exten ul{
+    width: 100px;
+    
+}
+.exten li a {
+    margin: 0;
+}
+.exten li a img{
+    margin: 15px 15px;
+}
+.exten li a img:hover{
+    background: cornsilk;
+}
+
+/* ============================= */
+.main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+p{
+    margin: 15px 0;
+}
+
+button{
+    color: #fff;
+    background: #2C2C2C;
+    padding: 14px 150px;
+}
+
+.sp{
+    overflow: hidden;
+    position: relative;
+}
+
+.in4{
+    position: absolute;
+    bottom: -100%;
+    left : 0;
+    right: 0;
+    transition: 0.3s ease-in-out;
+}
+.sp:hover{
+    transform: scale(1.025);
+}
+
+.sp:hover  .in4{
+    bottom: 0;
+}
+
+/* ================== */
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    background: #021A34;
+    color: 
+    #FFFFFF;
+    padding: 38px 0;
+}
